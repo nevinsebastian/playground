@@ -5,7 +5,7 @@ import { SignedIn, SignedOut, SignInButton, UserButton, useUser } from "@clerk/n
 function Header() {
   const {user} = useUser()
   return (
-    <div>
+    <div >
       {user && (
         <h1>{user?.firstName}
         {`'s`} Space
